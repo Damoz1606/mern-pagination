@@ -1,0 +1,38 @@
+img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+.card {
+  max-width: 400px;
+}
+
+.card-body .header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-body .container h6 {
+  font-size: 1rem;
+}
+
+.card-body .container p {
+  font-size: 0.75rem;
+}
+
+.btn-right-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-right-top:hover {
+  color: red;
+}
+
+.btn-right-top span {
+  margin: 0.25rem;
+}
